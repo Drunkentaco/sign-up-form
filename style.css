@@ -12,10 +12,7 @@
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
   }
-  img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-  }
+ 
   input, button, textarea, select {
     font: inherit;
   }
@@ -36,6 +33,29 @@
     display: flex;
   }
 
-  #title {
+  .imageContainer {
     background-image: url(img/leaf-background.jpg);
+    height: 100vh;
+    width: 33vw;
+    color: white;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .right {
+    height: 100vh;
+    width: 66vw;
+  }
+
+  .title {
+    font-family: 'norse';
+    background-color: #00000050;
+    display: flex;
+    flex-direction: row;
+  }
+
+  img {
+    height: 100px;
   }

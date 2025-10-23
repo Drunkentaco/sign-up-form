@@ -19,7 +19,7 @@ body {
   background-image: url(img/leaf-background.jpg);
   background-position: center center;
   background-size: cover;
-  flex: 3;
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -48,4 +48,26 @@ body {
 
 .photoBy {
   font-size: 0.9rem;
+}
+
+/* Text Section */
+
+.textSection{
+  flex: 3;
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textSection > p {
+  font: 1.4rem;
+  margin-left: var(--left-space);
+  font-weight: bold;
+  max-width: 80%;
+  margin-bottom: 8px;
+}
+
+.textSection p:first-child {
+  margin-top: 0;
 }

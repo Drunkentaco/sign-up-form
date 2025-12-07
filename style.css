@@ -141,3 +141,15 @@ input.error {
   font-weight: 700;
   font-size: 1.1rem;
 }
+
+p.log-in {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 32px;
+}
+
+.log-in a {
+  color:#596D48;
+  font-weight: bold;
+  text-decoration: none;
+}
